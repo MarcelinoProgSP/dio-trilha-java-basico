@@ -31,12 +31,13 @@ public class Contador{
             throw new ParametrosInvalidosException();
 
         } else {
-            System.out.println("Iniciando contagem regressiva");
+            System.out.println("Iniciando contagem ");
         }
 
-        for (int contagem = parametroDois - parametroUm; contagem > 0; contagem--) {
-
-            System.out.println(contagem);
+        for ( int contar = 0, contagem = parametroDois - parametroUm;  contagem  != contar;) {
+            contar++;
+         
+            System.out.println(contar);
 
         }
 
